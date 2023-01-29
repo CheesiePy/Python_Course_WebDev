@@ -20,3 +20,10 @@ for char in word:
 
 #[Q1] sum all digit of n.
 # n = input("please enter n-digit number: ")
+
+if 5 > 2:
+    print("never gonna happend")
+    print("this will always happen")
+    if 5 < 3:
+        print("shlom")
+    print("banana")
