@@ -25,12 +25,15 @@ print(type(height), type(age)) # run to see results
 
 # [Q1] :
     # create a var that represent the number of siblings you have
+sib_number = 2
 
 # [Q2] :
     # print the type of the var you created in Q1
+print(type(sib_number), end=" ")
 
 # [Q3] :
     # print your age in 10 years from now by using the age var
+print(age + 10)   
 
 # [Q4] :
     # print your age 10 years ago by using the age var
