@@ -10,6 +10,8 @@ age = 29
 
 height = 1.80
 
+drives = True
+
 # to find out the data type use the function type()
 
 # to get output out off our sript we will use the print() function 
