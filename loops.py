@@ -1,8 +1,8 @@
 
 
-# range()
+# range() - returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
 
-# len()
+# len() - returns the length of an object.
 
 word = "hello word"
 length = len(word)

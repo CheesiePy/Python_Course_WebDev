@@ -1,79 +1,81 @@
-#What is the output of the following code:
+
+#    What is the output of the following code:
+
 
 
 print(len("Hello, World!"))
 
-# Output: 
+# Output: 13
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 
 print("Hello, World!"[0:5])
 
-# Output: 
+# Output: "Hello"
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 
 text = "Hello, World!"
 print(text.replace("Hello", "Hi"))
 
-# Output: 
+# Output: "Hi, World!"
 
 #    What is the output of the following code:
 
 text = "Hello, World!"
 print(text.isdigit())
 
-# Output: 
+# Output: False
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 
 numbers = [1, 2, 3, 4, 5]
 print(sum(numbers))
 
-# Output: 
+# Output: 15
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 
 
 numbers = [1, 2, 3, 4, 5]
 print(min(numbers))
 
-# Output: 
+# Output: 1
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 
 numbers = [1, 2, 3, 4, 5]
 print(max(numbers))
 
-# Output:
+# Output: 5
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 
 numbers = [1, 2, 3, 4, 5]
 print(numbers[::-1])
 
-# Output: 
+# Output: [5, 4, 3, 2, 1]
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 numbers = [1, 2, 3, 4, 5]
 print(numbers[0:3])
 
-# Output: 
+# Output: [1, 2, 3]
 
-#What is the output of the following code:
+#    What is the output of the following code:
 
 numbers = [1, 2, 3, 4, 5]
 numbers.append(6)
 print(numbers)
 
-# Output:
+# Output: [1, 2, 3, 4, 5, 6]
 
 # What is the output of the following code:
 
@@ -81,7 +83,7 @@ numbers = [1, 2, 3, 4, 5]
 numbers.insert(0, 0)
 print(numbers)
 
-# Output:
+# Output: [0, 1, 2, 3, 4, 5]
 
 #    What is the output of the following code:
 
@@ -90,7 +92,7 @@ numbers = [1, 2, 3, 4, 5]
 numbers.remove(3)
 print(numbers)
 
-# Output: 
+# Output: [1, 2, 4, 5]
 
 #    What is the output of the following code:
 
@@ -98,7 +100,7 @@ numbers = [1, 2, 3, 4, 5]
 numbers.pop()
 print(numbers)
 
-#Output: 
+#Output: [1, 2, 3, 4]
 
 #    What is the output of the following code:
 
@@ -106,11 +108,12 @@ numbers = [1, 2, 3, 4, 5]
 numbers.clear()
 print(numbers)
 
-#Output:
+#Output: []
 
 #    What is the output of the following code:
 
 numbers = [1, 2, 3, 4, 5]
 print(len(numbers))
 
-#Output: 
+#Output: 5
+

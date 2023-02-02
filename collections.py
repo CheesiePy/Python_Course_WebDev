@@ -1,0 +1,4 @@
+mylist = []
+mydict = {}
+myset = set()
+
