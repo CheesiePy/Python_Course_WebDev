@@ -30,3 +30,22 @@ def rem_vow(mystr):
     return "".join(mylist)
 
 print(rem_vow("pokemon"))
+
+
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i
+    return result
+
+def alternate_lists(list1, list2):
+    result = []
+    for i in range(len(list1)):
+        result.append(list1[i])
+        result.append(list2[i])
+    return result
+
+
+
+def count_characters(string, char):
+    return string.count(char)
