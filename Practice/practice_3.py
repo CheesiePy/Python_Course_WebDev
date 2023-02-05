@@ -32,6 +32,23 @@ def rem_vow(mystr):
 print(rem_vow("pokemon"))
 
 
+def rplc_vow(mystr):
+    vowels='aeiouAEIOU'
+    mylist = []
+    for i in mystr:
+        if i not in vowels:
+            mylist.append(i)
+        else:
+            mylist.append("x")
+
+    return "".join(mylist)
+
+print(rplc_vow("pokemon"))
+
+
+
+
+
 def factorial(n):
     result = 1
     for i in range(1, n+1):
@@ -49,3 +66,43 @@ def alternate_lists(list1, list2):
 
 def count_characters(string, char):
     return string.count(char)
+
+def fibonacci(n):
+    result = []
+    a, b = 0, 1
+    while b < n:
+        result.append(b)
+        a, b = b, a + b
+    return result
+
+def largest_number(numbers):
+    max = numbers[0]
+    for i in numbers:
+        if i > max:
+            max = i
+    return max
+
+def sum_even(numbers):
+    sum = 0
+    for i in numbers:
+        if i%2 == 0:
+            sum += i
+    return sum
+
+
+def repeat_str(mystr, strnum):
+    return mystr*int(strnum)
+
+def remove_dup(list1):
+    result = []
+    for i in list1:
+        if i not in result:
+            result.append(i)
+    return result
+
+def remove_dup_set(list1):
+    return list(set(list1))        
+
+l1 = [1,2,1,4,5,2,3,1]
+print(remove_dup_set(l1))
+print(remove_dup(l1))    
