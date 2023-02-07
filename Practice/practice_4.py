@@ -35,8 +35,11 @@ sums = [sum(tuple) for tuple in [(1, 2), (3, 4), (5, 6)]]
 
 # Create a list of the first 10 Fibonacci numbers using a list comprehension.
 
-fibonacci = [0, 1] + [fibonacci[i-1] + fibonacci[i-2] for i in range(2, 10)]
+fibonacci = [0, 1] 
 
+[fibonacci.append(fibonacci[i-1] + fibonacci[i-2]) for i in range(2, 10)]
+
+print(fibonacci)
 
 # Create a list of all the numbers from 1 to 10 that are not divisible by 2 or 3 using a list comprehension.
 
