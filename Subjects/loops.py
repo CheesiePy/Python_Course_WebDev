@@ -4,37 +4,27 @@
 
 # len() - returns the length of an object.
 
-word = "hello word"
-length = len(word)
-print(length)
+# word = "hello word"
+# length = len(word)
+# print(length)
 
-for i in range(length):
-    print(word[i], i)
+# for i in range(length):
+#     print(word[i], i)
 
 
-for char in word:
-    print(char)
+# for char in word:
+#     print(char)
 
 # for index in range(5):
 #     print(index)
 
-#[Q1] sum all digit of n.
-# n = input("please enter n-digit number: ")
-
-if 5 > 2:
-    print("never gonna happend")
-    print("this will always happen")
-    if 5 < 3:
-        print("shlom")
-    print("banana")
-
 
 # while loops 
-word = "Hello Python"
-index = 0
-while index < len(word):
-    print("index:", index)
-    index += 1
+# word = "Hello Python"
+# index = 0
+# while index < len(word):
+#     print("index:", index)
+#     index += 1
 
 """
 while <condition is True>:
@@ -57,4 +47,13 @@ while <condition is True>:
     if <condition is True>:
         continue - return to the top of the loop
 """
+# example
+flag = False
+counter = 0
+while not flag:
+    counter += 1    
+    if counter > 10:
+        print(counter)
+        flag = True
+    
 

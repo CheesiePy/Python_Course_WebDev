@@ -31,7 +31,7 @@ if condition:
 
 
 # match statement
-variable = 6
+variable = 1
 match variable:
     case 1:
         print("variable is 1")
@@ -44,5 +44,6 @@ match variable:
 
 # # ternary operator
 print("condition is true") if condition else print("condition is false")
+
 
 

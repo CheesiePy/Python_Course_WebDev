@@ -50,7 +50,6 @@ mylist.clear()
 
 
 
-
 # tuple
 
 # tuple is a collection which is ordered and unchangeable. Allows duplicate members.
@@ -131,11 +130,15 @@ myset.clear()
 myset1 = {1, 2, 3, 4, 5}
 myset2 = {6, 7, 8, 9, 10}
 myset3 = myset1.union(myset2)
+myset4 = myset1.intersection(myset2)
 
 # Remove duplicates
 mylist = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
-myset = set(mylist)
-mylist = list(myset)
+# myset = set(mylist)
+# mylist = list(myset)
+mylist = list(set(mylist))
+
+
 
 
 

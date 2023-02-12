@@ -1,5 +1,7 @@
 import turtle as t
 
+# pip install turtle
+
 def square():
     for i in range(4):
         t.forward(100)
