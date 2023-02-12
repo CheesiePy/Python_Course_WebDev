@@ -1,4 +1,0 @@
-mylist = []
-mydict = {}
-myset = set()
-
